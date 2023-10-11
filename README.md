@@ -23,6 +23,17 @@ The frontend interface is constructed with simplicity in mind, built on HTML and
 6. Execute the command `set FLASK_APP=app.py`.
 7. Run the application with `flask run`.
 
+###  Libraries and Dependencies
+Flask: For web application backend.
+langchain: For document loading, embeddings, chat models, etc.
+werkzeug: For secure file operations.
+zipfile: For working with zip files.
+shutil: For high-level file operations.
+logging: For application logging.
+configparser: For parsing configuration files.
+
+For a full list of dependencies and their versions, see requirements.txt.
+
 ## Contributions
 Feel free to raise issues or provide pull requests!
 
