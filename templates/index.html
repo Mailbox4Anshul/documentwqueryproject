@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DocuKnowledgifier</title> 
+	
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>DocuKnowledgifier</h1>
+	<h3> Your assistant to smplify decision making from the knowledge inside the documents</h3>
+    <div class="container">
+        <section class="upload-section">
+            <h2>File Upload</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" id="fileInput" accept=".pdf,.zip">
+                <button type="submit">Upload</button>
+            </form>
+            <div id="uploadMessage"></div>
+        </section>
+        
+        <hr> <!-- Separator -->
+
+        <section class="chat-section">
+            <h2>Chat Window</h2>
+            <div id="chatSection" class="hidden">
+                <div id="chatWindow">
+                    <!-- Chat messages will appear here -->
+                </div>
+                
+                <form id="queryForm">
+                    <textarea id="queryInput" placeholder="Type your question here" rows="4" cols="50"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
