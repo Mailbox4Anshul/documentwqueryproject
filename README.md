@@ -15,4 +15,4 @@ The user uploads a zip file that contains multiple PDF files and clicks on the u
 
 **Prerequisites** 
 1. You will require an account on OpenAI and should have API key to use the models.
-2. You should have an account in [activeloop] (https://www.activeloop.ai/)https://www.activeloop.ai/ and should have a ORD_ID and API_Token 
+2. You should have an account in activeloop https://www.activeloop.ai/ and should have a ORD_ID and API_Token 
